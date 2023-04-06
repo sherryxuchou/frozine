@@ -1,5 +1,9 @@
 body{
-	font-size: 12pt;
-	background: black;
-	color: white;
+	background: beige;
+}
+
+.container-1{
+	position: absolute;
+	width: 25px;
+	height: auto;
 }
