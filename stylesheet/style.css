@@ -2,8 +2,131 @@ body{
 	background: beige;
 }
 
-.container-1{
+.rectangle1{
+	height: 20px;
+	width: 1710px;
+	background-color: #A8BFB0;
 	position: absolute;
-	width: 25px;
+	top: 360px;
+}
+
+.rectangle2{
+	height: 45px;
+	width: 1710px;
+	background-color: #A8BFB0;
+	position: absolute;
+	top: 400px;
+}
+
+.container-2{
+	position: absolute;
+	padding: 115px 0px 0px 0px;
+}
+
+.combo-1 img{
+	position: absolute;
+	left: 100px;
+	width: auto;
+	height: 1000px;
+	top: 100px;
+}
+
+.orange-1 img{
+	position: absolute;
+	left: 400px;
+	width: auto;
+	height: 1100px;
+}
+
+.orange-2 img{
+	position: absolute;
+	left: 200px;
+	width: 300px;
 	height: auto;
+	top: 370px;
+	transition: 2s;
+}
+
+.orange-2 img:hover{
+	position: absolute;
+	left: 200px;
+	top: 20px;
+	transform: rotate(90deg);
+}
+
+.orange-3 img{
+	position: absolute;
+	left: 700px;
+	width: 300px;
+	height: auto;
+	top: 970px;
+}
+
+.lemon-1 img{
+	position: absolute;
+	right: 200px;
+	width: auto;
+	height: 900px;
+}
+
+.lemon-2 img{
+	position: absolute;
+	right: 200px;
+	width: auto;
+	height: 300px;
+	transition: 1s;
+}
+
+.lemon-2 img:hover{
+	position: absolute;
+	height: 400px;
+	width: auto;
+	transform: rotate(180deg);
+}
+
+.lemon-3 img{
+	position: absolute;
+	right: 500px;
+	top: 430px;
+	width: auto;
+	height: 300px;
+	transition: 1s;
+}
+
+.lemon-3 img:hover{
+	position: absolute;
+	transform: rotate(180deg);
+	transition: 1s;
+}
+
+.banner-1 img{
+	position: absolute;
+	right: 100px;
+	top: 380px;
+	width: auto;
+	height: 300px;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+	animation-play-state: running;
+}
+
+@keyframes p1{
+	from{
+		width: auto;
+		height: 300px;
+	}
+	to{
+		width: auto;
+		height: 380px;
+	}
+}
+
+.lime-3 img{
+	position: absolute;
+	width: auto;
+	height: 200px;
 }
