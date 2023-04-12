@@ -2,6 +2,9 @@ body{
 	background: beige;
 }
 
+/* main menu
+-------------------------------------------------- */
+
 .rectangle1{
 	height: 20px;
 	width: 1710px;
@@ -27,6 +30,9 @@ body{
 	position: absolute;
 	padding: 115px 0px 0px 550px;
 }
+
+/* citrus
+-------------------------------------------------- */
 
 .combo-1 img{
 	position: absolute;
@@ -162,4 +168,70 @@ body{
 	height: 880px;
 	right: 20px;
 	top: 300px;
+}
+
+/* carton
+-------------------------------------------------- */
+
+.banner-3 img{
+	width: 1710px;
+	height: auto;
+}
+
+.banner-4 img{
+	width: 1400px;
+	height: auto;
+	bottom: 10px;
+}
+
+.home img{
+	width: 100px;
+	height: auto;
+	top: 1250px;
+}
+
+.carton-1 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 500px;
+}
+
+.carton-2 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 500px;
+	left: 600px;
+}
+
+.carton-3 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 500px;
+	left: 1200px;
+}
+
+.carton-4 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 1000px;
+}
+
+.carton-5 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 1000px;
+	left: 600px;
+}
+
+.carton-6 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 1000px;
+	left: 1200px;
 }
