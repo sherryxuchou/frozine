@@ -61,10 +61,25 @@ body{
 
 .orange-3 img{
 	position: absolute;
-	left: 700px;
+	left: 200px;
 	width: 300px;
 	height: auto;
-	top: 970px;
+	top: 1400px;
+	transition: 2s;
+}
+
+.orange-3 img:hover{
+	position: absolute;
+	left: 1400px;
+	transform: rotate(330deg);
+}
+
+.orange-4 img{
+	position: absolute;
+	left: 600px;
+	width: 700px;
+	height: auto;
+	top: 1100px;
 }
 
 .lemon-1 img{
@@ -91,8 +106,8 @@ body{
 
 .lemon-3 img{
 	position: absolute;
-	right: 500px;
-	top: 430px;
+	right: 420px;
+	top: 450px;
 	width: auto;
 	height: 300px;
 	transition: 1s;
@@ -104,34 +119,47 @@ body{
 	transition: 1s;
 }
 
-.banner-1 img{
+.lime-1 img{
 	position: absolute;
-	right: 100px;
-	top: 380px;
 	width: auto;
-	height: 300px;
-	animation-name: p1;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
+	height: 340px;
+	top: 900px;
+	right: 450px;
+	transition: 2s;
 }
 
-@keyframes p1{
-	from{
-		width: auto;
-		height: 300px;
-	}
-	to{
-		width: auto;
-		height: 380px;
-	}
+.lime-1 img:hover{
+	position: absolute;
+	top: 1450px;
+	transform: rotate(270deg);
 }
 
 .lime-3 img{
 	position: absolute;
 	width: auto;
 	height: 200px;
+}
+
+.lime-4 img{
+	position: absolute;
+	width: auto;
+	height: 1000px;
+	right: 100px;
+	top: 700px;
+}
+
+.lime-5 img{
+	position: absolute;
+	width: auto;
+	height: 880px;
+	left: 100px;
+	top: 800px;
+}
+
+.lime-6 img{
+	position: absolute;
+	width: auto;
+	height: 880px;
+	right: 20px;
+	top: 300px;
 }
