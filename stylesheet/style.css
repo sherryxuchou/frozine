@@ -31,6 +31,11 @@ body{
 	padding: 115px 0px 0px 550px;
 }
 
+.container-4{
+	position: absolute;
+	padding: 115px 0px 0px 1200px;
+}
+
 /* citrus
 -------------------------------------------------- */
 
@@ -179,15 +184,18 @@ body{
 }
 
 .banner-4 img{
-	width: 1400px;
+	position: absolute;
+	width: 1200px;
 	height: auto;
-	bottom: 10px;
+	right: 10px;
+	top: 1520px;
 }
 
 .home img{
-	width: 100px;
+	position: absolute;
+	width: 500px;
 	height: auto;
-	top: 1250px;
+	top: 1500px;
 }
 
 .carton-1 img{
