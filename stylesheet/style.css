@@ -2,8 +2,244 @@ body{
 	background: beige;
 }
 
-.container-1{
+/* main menu
+-------------------------------------------------- */
+
+.rectangle1{
+	height: 20px;
+	width: 1710px;
+	background-color: #A8BFB0;
 	position: absolute;
-	width: 25px;
+	top: 360px;
+}
+
+.rectangle2{
+	height: 45px;
+	width: 1710px;
+	background-color: #A8BFB0;
+	position: absolute;
+	top: 400px;
+}
+
+.container-2{
+	position: absolute;
+	padding: 115px 0px 0px 0px;
+}
+
+.container-3{
+	position: absolute;
+	padding: 115px 0px 0px 550px;
+}
+
+.container-4{
+	position: absolute;
+	padding: 115px 0px 0px 1200px;
+}
+
+/* citrus
+-------------------------------------------------- */
+
+.combo-1 img{
+	position: absolute;
+	left: 100px;
+	width: auto;
+	height: 1000px;
+	top: 100px;
+}
+
+.orange-1 img{
+	position: absolute;
+	left: 400px;
+	width: auto;
+	height: 1100px;
+}
+
+.orange-2 img{
+	position: absolute;
+	left: 200px;
+	width: 300px;
 	height: auto;
+	top: 370px;
+	transition: 2s;
+}
+
+.orange-2 img:hover{
+	position: absolute;
+	left: 200px;
+	top: 20px;
+	transform: rotate(90deg);
+}
+
+.orange-3 img{
+	position: absolute;
+	left: 200px;
+	width: 300px;
+	height: auto;
+	top: 1400px;
+	transition: 2s;
+}
+
+.orange-3 img:hover{
+	position: absolute;
+	left: 1400px;
+	transform: rotate(330deg);
+}
+
+.orange-4 img{
+	position: absolute;
+	left: 600px;
+	width: 700px;
+	height: auto;
+	top: 1100px;
+}
+
+.lemon-1 img{
+	position: absolute;
+	right: 200px;
+	width: auto;
+	height: 900px;
+}
+
+.lemon-2 img{
+	position: absolute;
+	right: 200px;
+	width: auto;
+	height: 300px;
+	transition: 1s;
+}
+
+.lemon-2 img:hover{
+	position: absolute;
+	height: 400px;
+	width: auto;
+	transform: rotate(180deg);
+}
+
+.lemon-3 img{
+	position: absolute;
+	right: 420px;
+	top: 450px;
+	width: auto;
+	height: 300px;
+	transition: 1s;
+}
+
+.lemon-3 img:hover{
+	position: absolute;
+	transform: rotate(180deg);
+	transition: 1s;
+}
+
+.lime-1 img{
+	position: absolute;
+	width: auto;
+	height: 340px;
+	top: 900px;
+	right: 450px;
+	transition: 2s;
+}
+
+.lime-1 img:hover{
+	position: absolute;
+	top: 1450px;
+	transform: rotate(270deg);
+}
+
+.lime-3 img{
+	position: absolute;
+	width: auto;
+	height: 200px;
+}
+
+.lime-4 img{
+	position: absolute;
+	width: auto;
+	height: 1000px;
+	right: 100px;
+	top: 700px;
+}
+
+.lime-5 img{
+	position: absolute;
+	width: auto;
+	height: 880px;
+	left: 100px;
+	top: 800px;
+}
+
+.lime-6 img{
+	position: absolute;
+	width: auto;
+	height: 880px;
+	right: 20px;
+	top: 300px;
+}
+
+/* carton
+-------------------------------------------------- */
+
+.banner-3 img{
+	width: 1710px;
+	height: auto;
+}
+
+.banner-4 img{
+	position: absolute;
+	width: 1200px;
+	height: auto;
+	right: 10px;
+	top: 1520px;
+}
+
+.home img{
+	position: absolute;
+	width: 500px;
+	height: auto;
+	top: 1500px;
+}
+
+.carton-1 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 500px;
+}
+
+.carton-2 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 500px;
+	left: 600px;
+}
+
+.carton-3 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 500px;
+	left: 1200px;
+}
+
+.carton-4 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 1000px;
+}
+
+.carton-5 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 1000px;
+	left: 600px;
+}
+
+.carton-6 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 1000px;
+	left: 1200px;
 }
