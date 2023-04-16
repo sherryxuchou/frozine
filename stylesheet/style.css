@@ -190,6 +190,23 @@ body{
 	top: 300px;
 }
 
+#citrus-chara{
+	display: none;
+	
+}
+
+#citrus-chara:target{
+	display: block;
+}
+
+#citrus-chara img{
+	position: absolute;
+	width: 280px;
+	height: auto;
+	left: 310px;
+	top: 400px;
+}
+
 /* carton
 -------------------------------------------------- */
 
