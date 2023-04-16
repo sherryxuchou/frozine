@@ -23,17 +23,32 @@ body{
 
 .container-2{
 	position: absolute;
-	padding: 115px 0px 0px 0px;
+	padding: 115px 0px 0px 1200px;
 }
 
 .container-3{
 	position: absolute;
-	padding: 115px 0px 0px 550px;
+	padding: 115px 0px 0px 540px;
 }
 
 .container-4{
 	position: absolute;
-	padding: 115px 0px 0px 1200px;
+	padding: 115px 0px 0px 0px;
+}
+
+.container-5{
+	position: absolute;
+	padding: 600px 0px 0px 1200px;
+}
+
+.container-6{
+	position: absolute;
+	padding: 1070px 0px 0px 0px;
+}
+
+.container-7{
+	position: absolute;
+	padding: 800px 0px 0px 540px;
 }
 
 /* citrus
