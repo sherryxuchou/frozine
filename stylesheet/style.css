@@ -237,12 +237,44 @@ body{
 	top: 500px;
 }
 
+.butter{
+	display:none;
+}
+
+.butter img{
+	width: 330px;
+	height: auto;
+	position: absolute;
+	top: 490px;
+}
+
+.carton-1:hover + .butter{
+	display: block;
+}
+
 .carton-2 img{
 	width: 500px;
 	height: auto;
 	position: absolute;
 	top: 500px;
 	left: 600px;
+}
+
+.cherry{
+	display:none;
+}
+
+.cherry img{
+	width: 300px;
+	height: auto;
+	position: absolute;
+	top: 500px;
+	left: 600px;
+}
+
+.carton-2:hover + .cherry{
+	display: block;
+	
 }
 
 .carton-3 img{
@@ -253,11 +285,43 @@ body{
 	left: 1200px;
 }
 
+.choco{
+	display:none;
+}
+
+.choco img{
+	width: 300px;
+	height: auto;
+	position: absolute;
+	top: 500px;
+	left: 1200px;
+}
+
+.carton-3:hover + .choco{
+	display: block;
+}
+
+
 .carton-4 img{
 	width: 500px;
 	height: auto;
 	position: absolute;
 	top: 1000px;
+}
+
+.rainbow{
+	display:none;
+}
+
+.rainbow img{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 1000px;
+}
+
+.carton-4:hover + .rainbow{
+	display: block;
 }
 
 .carton-5 img{
@@ -268,10 +332,42 @@ body{
 	left: 600px;
 }
 
+.peach{
+	display:none;
+}
+
+.peach img{
+	width: 300px;
+	height: auto;
+	position: absolute;
+	top: 1000px;
+	left: 600px;
+}
+
+.carton-5:hover + .peach{
+	display: block;
+}
+
 .carton-6 img{
 	width: 500px;
 	height: auto;
 	position: absolute;
 	top: 1000px;
 	left: 1200px;
+}
+
+.pineapple{
+	display:none;
+}
+
+.pineapple img{
+	width: 230px;
+	height: auto;
+	position: absolute;
+	top: 960px;
+	left: 1230px;
+}
+
+.carton-6:hover + .pineapple{
+	display: block;
 }
