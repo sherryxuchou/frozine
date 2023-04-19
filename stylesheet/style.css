@@ -334,6 +334,7 @@ body{
 	display: block;
 }
 
+
 .carton-2 img{
 	width: 500px;
 	height: auto;
@@ -452,4 +453,30 @@ body{
 
 .carton-6:hover + .pineapple{
 	display: block;
+}
+
+.carton-chara1 img{
+	width: 220px;
+	height: auto;
+	position: absolute;
+	top: 400px;
+	left: 400px;
+}
+
+.carton-chara2 img{
+	width: 270px;
+	height: auto;
+	position: absolute;
+	top: 900px;
+	right: 480px;
+}
+
+/* popsicle
+-------------------------------------------------- */
+.pop-1 img{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	right: 480px;
 }
