@@ -1,12 +1,12 @@
 body {
-  background-color: #000000;
+  background-color: #C6F2ED;
   margin: 0;
   padding: 0;
   font-family: 'DIN', sans-serif;
   font-size: 32px;
   font-weight: bold;
   line-height: 1.5;
-  color: #E0F7F0;
+  color: #039C96;
 }
 
 
@@ -24,7 +24,7 @@ p {
     font-size: 28px;
   font-weight: bold;
   line-height: 1.5;
-  color: #E5FCF9;
+  color: #EB7603;
   z-index: 1;
 }
 
@@ -39,14 +39,14 @@ p {
 
 #fourscoopcone {
   position: absolute;
-  top: 250;
+  top: 220;
   left: 550;
   z-index: 6;
   width: 500px;
 }
 #threescoopcone {
   position: absolute;
-  top: 250;
+  top: 220;
   left: 550;
   z-index: 5;
   width: 500px;
@@ -54,7 +54,7 @@ p {
 
 #twoscoopcone {
   position: absolute;
-   top: 300;
+   top: 270;
   left: 550;
   z-index: 4;
    width: 500px;
@@ -62,7 +62,7 @@ p {
 
 #onescoopcone {
   position: absolute;
-  top: 400;
+  top: 370;
   left: 550;
   z-index: 3;
    width: 500px;
@@ -70,7 +70,7 @@ p {
 
 #zeroscoopcone {
   position: absolute;
- top: 550;
+ top: 520;
   left: 550;
   z-index: 2;
    width: 500px;
