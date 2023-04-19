@@ -1,12 +1,12 @@
 body {
-  background-color: #000000;
+  background-color: #C6F2ED;
   margin: 0;
   padding: 0;
   font-family: 'DIN', sans-serif;
   font-size: 32px;
   font-weight: bold;
   line-height: 1.5;
-  color: #E0F7F0;
+  color: #039C96;
 }
 
 
@@ -24,7 +24,7 @@ p {
     font-size: 28px;
   font-weight: bold;
   line-height: 1.5;
-  color: #E5FCF9;
+  color: #EB7603;
   z-index: 1;
 }
 
