@@ -1,0 +1,15 @@
+body{
+	background-image: url("https://i.imgur.com/bJ5wVUj.png");
+	background-size: cover;
+}
+
+.container-1{
+	position: absolute;
+	padding: 0px 0px 0px 0px;
+}
+
+.container-1 img:hover, .container-9:focus img{
+	transform: scale(1.1,1.1);
+	position: absolute;
+	padding: 0px 0px 0px 0px;
+}

@@ -1,0 +1,118 @@
+body{
+	background-image: url("https://i.imgur.com/8V9nNqZ.png");
+	background-size: cover;
+}
+
+.container-1{
+	position: absolute;
+	padding: 0px 0px 0px 0px;
+}
+
+.container-2{
+	position: absolute;
+	padding: 115px 0px 0px 1200px;
+}
+
+.container-3{
+	position: absolute;
+	padding: 115px 0px 0px 540px;
+}
+
+.container-4{
+	position: absolute;
+	padding: 115px 0px 0px 0px;
+}
+
+.container-5{
+	position: absolute;
+	padding: 700px 0px 0px 1200px;
+}
+
+.container-6{
+	position: absolute;
+	padding: 170px 0px 0px 0px;
+}
+
+.container-7{
+	position: absolute;
+	padding: 800px 0px 0px 560px;
+}
+
+.container-8{
+	position: absolute;
+	padding: 1050px 0px 0px 560px;
+}
+
+.container-9{
+	position: absolute;
+	padding: 170px 0px 0px 1145px;
+}
+.container-10{
+	position: absolute;
+	padding: 550px 0px 0px 1150px;
+}
+
+.container-11{
+	position: absolute;
+	padding: 1055px 0px 0px 240px;
+}
+
+    /*---------*/
+    /*---------*/
+    /*---------*/
+    /*---------*/
+    /*---------*/
+    /*---------*/
+
+.container-1 img:hover{
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.container-2{
+	position: absolute;
+	padding: 115px 0px 0px 1200px;
+}
+
+.container-3{
+	position: absolute;
+	padding: 115px 0px 0px 540px;
+}
+
+.container-4{
+	position: absolute;
+	padding: 115px 0px 0px 0px;
+}
+
+.container-5{
+	position: absolute;
+	padding: 700px 0px 0px 1200px;
+}
+
+.container-6{
+	position: absolute;
+	padding: 170px 0px 0px 0px;
+}
+
+.container-7{
+	position: absolute;
+	padding: 800px 0px 0px 560px;
+}
+
+.container-8{
+	position: absolute;
+	padding: 1050px 0px 0px 560px;
+}
+
+.container-9{
+	position: absolute;
+	padding: 170px 0px 0px 1145px;
+}
+.container-10{
+	position: absolute;
+	padding: 550px 0px 0px 1150px;
+}
+
+.container-11{
+	position: absolute;
+	padding: 1055px 0px 0px 240px;
