@@ -38,19 +38,101 @@ body{
 
 .container-5{
 	position: absolute;
-	padding: 600px 0px 0px 1200px;
+	padding: 700px 0px 0px 1200px;
 }
 
 .container-6{
 	position: absolute;
-	padding: 1070px 0px 0px 0px;
+	padding: 1670px 0px 0px 0px;
 }
 
 .container-7{
 	position: absolute;
-	padding: 800px 0px 0px 540px;
+	padding: 800px 0px 0px 560px;
 }
 
+.container-8{
+	position: absolute;
+	padding: 1350px 0px 0px 560px;
+}
+
+.container-9{
+	position: absolute;
+	padding: 1670px 0px 0px 1145px;
+}
+.container-10{
+	position: absolute;
+	padding: 550px 0px 0px 1150px;
+}
+
+.container-11{
+	position: absolute;
+	padding: 1055px 0px 0px 240px;
+}
+
+.container-12{
+	position: absolute;
+	padding: 1050px 0px 0px 0px;
+
+}
+
+.container-13{
+	position: absolute;
+	padding: 1710px 0px 0px 520px;
+
+}
+
+/*hover
+-------------------------------------------------- */
+
+.container-2:hover img, .container-2:focus img{
+	transform: scale(1.15,1.15);
+}
+
+.container-3:hover img, .container-3:focus img{
+	transform: scale(1.15,1.15);
+}
+
+.container-4:hover img, .container-4:focus img{
+	transform: scale(1.15,1.15);
+}
+
+.container-5:hover img, .container-5:focus img{
+	transform: scale(1.15,1.15);
+}
+
+.container-6:hover img, .container-6:focus img{
+	transform: scale(1.15,1.15);
+}
+
+.container-7:hover img, .container-7:focus img{
+	transform: scale(1.15,1.15);
+}
+
+.container-8:hover img, .container-8:focus img{
+	transform: scale(1.1,1.1);
+}
+
+.container-9:hover img, .container-9:focus img{
+	transform: scale(1.1,1.1);
+}
+
+.container-10:hover img, .container-10:focus img{
+	transform: scale(1.1,1.1);
+}
+
+.container-11:hover img, .container-11:focus img{
+	transform: scale(1.1,1.1);
+}
+
+.container-12:hover img, .container-12:focus img{
+	transform: scale(1.1,1.1);
+}
+
+.container-13:hover img, .container-13:focus img{
+	transform: scale(1.1,1.1);
+
+}
 /* citrus
 -------------------------------------------------- */
 
