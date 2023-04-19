@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".img1").click(function(){
+        $("p").fadeOut();
+      });
+      $(".img2").click(function(){
+        $("p").fadeIn();
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <p>This is a paragraph.</p>
+
+  <img src="vanillascoop1.png" class="img1" alt="Fade out">
+  <img src="fadein.png" class="img2" alt="Fade in">
+
+</body>
+</html>

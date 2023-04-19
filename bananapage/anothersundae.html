@@ -1,0 +1,139 @@
+<!DOCTYPE>
+<HTML>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href= "anothersundae.css">
+	<meta name="viewport" content="width=devices-width, initial-scale=1" />
+  <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+      <header>
+      <h1>MAKE THE ICE CREAM SUNDAE OF YOUR DREAMS</h1>
+    </header>
+
+
+<div class="box">
+  <a class="button" href="split.html" onclick="window.open(this.href, '_blank', 'width=500,height=500'); return false;">Don't forget to add toppings at the end!</a>
+
+
+</div>
+
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+    
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+      $(function(){
+
+        $('#draggable').draggable();
+
+        $('#droppable').droppable({
+          drop: function(event, ui){
+            $(this)
+            .addClass("sorbet1")
+            .find("p")
+            .html("Dropped!");
+          }
+        });
+
+ // Add draggable functionality to the banana image
+        $('#draggable2').draggable();
+
+ // Add draggable functionality to the banana image
+        $('#draggable3').draggable();
+         // Add draggable functionality to the banana image
+        $('#draggable4').draggable();
+         // Add draggable functionality to the banana image
+        $('#draggable5').draggable();
+         // Add draggable functionality to the banana image
+        $('#draggable6').draggable();
+      });
+
+
+    </script>
+
+  </head>
+
+
+  <body>
+
+    <!--DRAGGABLE -->
+
+    <div id="draggable" class="ui-widget-content">
+  <img src="chocolatescoop1.png" alt="Your Image" style="width: 50px">
+
+    </div>
+
+    <!-- Add the banana image -->
+    <div id="draggable2" class="ui-widget-content">
+      <img src="banana.jpg" alt="Banana Image"style="width: 50px">
+    </div>
+
+      <!-- Add the banana image -->
+    <div id="draggable3" class="ui-widget-content">
+      <img src="pink4.png" alt="pink"style="width: 50px">
+    </div>
+
+<style>
+#div1, #div2 {
+  float: left;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="pink4.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+
+
+        
+
+
+<body>
+    <center> <h1>ICE CREAM ICE CREAM</h1> 
+    
+    <div style="display: inline-block; margin-right: 20px;">
+  <img src="emptycone.png" style="max-width: 100%"> </div>
+
+  
+
+
+
+</body>
+
+
+
+</html>
