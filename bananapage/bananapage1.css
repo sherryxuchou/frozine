@@ -1,45 +1,20 @@
 body {
   font-family: DIN, sans-serif;
-  height: 100vh;
   background-image: url("mag.jpg");
-  background-size: cover;
-  margin: 0;
-  padding: 0;
 }
 
-p{
-  text-align: center;
-  font-size: 32px;
-  margin-top: 120px;
-  color: #000000;
-  z-index: 100;
-}
-
-
-.intro {
-  border: none;
-    background-color: none;
-    width: 1000px;
-}
-
-      .introtext2 {
+  .introtext2 {
       display: block;
       margin-top: 250px;
       width: 90vw;
     }
+
     .bananaman {
       display: block;
       float: left;
-      margin-top: 400px;
+      margin-top: 300px;
       margin-left: 50px;
       width: 400px;
-}
-
-    .bananahome img{
-      top: 500px;
-      left: 100px;
-      width: 200px;
-      z-index: 100;
 }
 
 
@@ -65,23 +40,6 @@ p{
   background-repeat: no-repeat;
   background-size: contain;
   text-indent: -9999px;
-}
-
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
 }
 
 .popup {
@@ -124,50 +82,6 @@ p{
   animation: animate 0.25s infinite;
 }
 
-@media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-  }
-  .popup{
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 200px) and 
-(orientation: landscape){
-
-  body{
-  background-color:lightskyblue;
-}
-
-
-
-@media screen and (min-width: 468px) and 
-(orientation: landscape){
-
-  body{
-  background-color:hotpink;
-}
-
-.overlay {
-background-color: lightsalmon;
-}
-
-.popup {
-background-color: lightsalmon;
-}
-
-@media screen and (min-width: 700px) and 
-(orientation: landscape){
-
-  body{
-  background-color:lightpink;
-}
-
-.popup {
-background-color: lightsalmon;
-}
-}
 
 
 
