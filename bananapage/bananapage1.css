@@ -35,12 +35,10 @@ p{
       width: 400px;
 }
 
-    .bananahome {
-      display: block;
-      float: left;
-      margin-top: 600px;
-      margin-left: 50px;
-      width: 400px;
+    .bananahome img{
+      top: 500px;
+      left: 100px;
+      width: 200px;
       z-index: 100;
 }
 
