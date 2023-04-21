@@ -287,6 +287,18 @@ body{
 	height: auto;
 	left: 310px;
 	top: 400px;
+	animation: cic1 1.2s ease infinite forwards normal running;
+}
+
+@keyframes cic1{
+	0%
+	15% {transform: translateX(-30px) rotate(-6deg);}
+    30% {transform: translateX(15px) rotate(6deg);}
+    45% {transform: translateX(-15px) rotate(-3.6deg);}
+    60% {transform: translateX(9px) rotate(2.4deg);}
+    75% {transform: translateX(-6px) rotate(-1.2deg);}
+    100% {transform: translateX(0px);}
+ 
 }
 
 /* carton
@@ -461,6 +473,17 @@ body{
 	position: absolute;
 	top: 400px;
 	left: 400px;
+	animation: cac1 1.25s ease infinite forwards normal running;
+}
+
+@keyframes cac1{
+	0%
+	10% {transform: scale(1.1,.9) translateY(0px);}
+	30% {transform: scale(.9,1.1) translateY(-100px);}
+	50% {transform: scale(1.05,.95) translateY(0px);}
+	57% {transform: translateY(-7px);}
+	64% {transform: translateY(0px);}
+	100% {transform: translateY(0px);}
 }
 
 .carton-chara2 img{
@@ -469,16 +492,29 @@ body{
 	position: absolute;
 	top: 900px;
 	right: 480px;
+	animation: cac2 1.35s ease infinite forwards normal running;
+}
+
+@keyframes cac2{
+	0%
+	15% {transform: translateY(-30px) rotate(6deg);}
+	30% {transform: translateY(15px) rotate(-6deg);}
+	45% {transform: translateY(-15px) rotate(3.6deg);}
+	60% {transform: translateY(9px) rotate(-2.4deg);}
+	75% {transform: translateY(-6px) rotate(1.2deg);}
+	100% {transform: translateY(0px) rotate(0deg);}
+ 
 }
 
 /* popsicle
 -------------------------------------------------- */
-.pop-1 img{
-	width: 500px;
-	height: auto;
+.box{
+	width: 800px;
+	height: 450px;
 	position: absolute;
-	top: 10px;
-	right: 480px;
+	top: 50px;
+	left: 480px;
+	outline: 8px ridge #b7caba;
 }
 
 .home-pop img{
@@ -486,4 +522,131 @@ body{
 	height: auto;
 	position: absolute;
 	top: 10px;
+}
+
+.instructions img{
+	position: absolute;
+	top: 190px;
+	left: 500px;
+	width: 750px;
+	height: auto;
+
+}
+
+ #draggable-1{ 
+ 	width: 150px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 500px;
+ 	margin-right: 10px;
+ }
+
+  #draggable-2{ 
+ 	width: 150px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 500px;
+ }
+
+  #draggable-3{ 
+ 	width: 155px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 500px;
+ }
+
+   #draggable-4{ 
+ 	width: 210px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 500px;
+ 	left: -15px;
+ }
+
+   #draggable-5{ 
+ 	width: 240px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 500px;
+ 	transform: rotate(10deg);
+ 	left: -30px;
+ }
+
+   #draggable-6{ 
+ 	width: 255px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 500px;
+ 	left: 20px;
+ 	transform: rotate(-15deg);
+ 	left: -60px;
+ }
+
+    #draggable-7{ 
+ 	width: 270px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 450px;
+ 	transform: rotate(-20deg);
+ 	left: -100px;
+ }
+
+    #draggable-8{ 
+ 	width: 280px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 420px;
+ 	transform: rotate(-20deg);
+ }
+
+    #draggable-9{ 
+ 	width: 250px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 450px;
+ 	transform: rotate(-20deg);
+ }
+
+    #draggable-10{ 
+ 	width: 310px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 420px;
+ 	left: -30px;
+ 	transform: rotate(60deg);
+ }
+
+   #draggable-11{ 
+ 	width: 220px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 420px;
+ 	left: -30px;
+ }
+
+    #draggable-12{ 
+ 	width: 140px; 
+ 	height: auto;
+ 	display: inline-block;
+ 	top: 490px;
+ 	left: 30px;
+ }
+
+ .pop-chara1 img{
+ 	position: absolute;
+ 	width: 380px;
+ 	height: auto;
+ 	right: 10px;
+ 	top: 200px;
+ 	animation: pc1 1.25s ease infinite forwards normal running;
+ }
+
+@keyframes pc1{
+	 0%
+	 15% {transform: translateX(-30px) rotate(6deg);}
+	 30% {transform: translateX(15px) rotate(-6deg);}
+	 45% {transform: translateX(-15px) rotate(3.6deg);}
+	 60% {transform: translateX(9px) rotate(-2.4deg);}
+	 75% {transform: translateX(-6px) rotate(1.2deg);}
+	 100% {transform: translateX(0px);}
 }
