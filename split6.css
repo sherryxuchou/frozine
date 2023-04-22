@@ -1,39 +1,1497 @@
 @import url();
 
+body {
+  background-image: url("parlor.png");
+}
 
 
+.intro img {
+  margin-top:20px;
+  width: 200px;
+}
 
-@media only screen and (min-width: 200px){
-  .banana{
+
+@media only screen and (min-width: 300px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+}
+
+@media only screen and (min-width: 400px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
     display: none;
-  }
-
-
-  .peeled img{
-    width: 200px;
-    height: auto;
-    top: 50px;
-  }
-
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
 }
 
-/* iPad 
--------------------------------------------------- */
-@media only screen and (max-width: 401px)  {
 
-  .banana img{
-     width: 200px;
-    height: auto;
-    top: 50px;
-  }
-
-  .peeled img{
+@media only screen and (min-width: 500px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
     display: none;
-  
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+}
+
+
+@media only screen and (min-width: 600px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+}
+
+@media only screen and (min-width: 700px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
 
 }
 
+@media only screen and (min-width: 800px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+
+@media only screen and (min-width: 900px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+
+@media only screen and (min-width: 1000px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana8 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 1100px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana8 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana9 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 1200px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana8 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}  .banana9 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}  .banana10 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 1300px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+
+  .banana8 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}  .banana9 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}  
+.banana10 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+}
+.banana11 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 1400px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+
+  .banana8 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}  .banana9 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}  .banana10 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+
+}  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 1500px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana8 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+  }  
+
+  .banana9 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+
+}  .banana10 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+
+}  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+  }
+
+@media only screen and (min-width: 1600px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana8 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana9 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana10 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+}
+  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
 }
 
 
+@media only screen and (min-width: 1700px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+}
+  .banana8 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana9 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana10 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+
+}
+  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana13 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+
+@media only screen and (min-width: 1800px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 1900px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 2000px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 2100px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+@media only screen and (min-width: 2200px){
+  .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana8 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana9 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana10 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana13 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana14 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana15 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana16 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana17 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana18 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana19 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana20 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana21 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana22 img{
+    margin-top: 80px;
+    width: 300px;
+}
+
+@media only screen and (min-width: 2300px){
+    .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana8 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana9 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana10 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana13 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana14 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana15 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana16 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana17 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana18 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana19 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana20 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana21 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana22 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  @media only screen and (min-width: 2400px){
+      .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana8 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana9 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana10 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana13 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana14 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana15 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana16 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana17 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana18 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana19 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana20 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana21 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana22 img{
+    margin-top: 80px;
+    width: 300px;
+}
+    @media only screen and (min-width: 2500px){
+        .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana8 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana9 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana10 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana13 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana14 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana15 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana16 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana17 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana18 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana19 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana20 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana21 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana22 img{
+    margin-top: 80px;
+    width: 300px;
+}
+      @media only screen and (min-width: 2600px){
+          .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana8 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana9 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana10 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana13 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana14 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana15 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana16 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana17 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana18 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana19 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana20 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana21 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana22 img{
+    margin-top: 80px;
+    width: 300px;
+}
+        @media only screen and (min-width: 2700px){
+            .banana1 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana2 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana3 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana4 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana5 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana6 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana7 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana8 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana9 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana10 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana11 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana12 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana13 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana14 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana15 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana16 img{
+    margin-top: 20px;
+    width: 300px;
+    display: none;
+}
+  .banana17 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana18 img{
+    margin-top: 80px;
+    width: 300px;
+
+}
+  .banana19 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana20 img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banana21 img{
+    margin-top: 80px;
+    width: 300px;
+    display: none;
+
+}
+  .banana22 img{
+    margin-top: 80px;
+    width: 300px;
+}
+
+         
+
+         
 
