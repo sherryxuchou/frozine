@@ -1,0 +1,44 @@
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1728px) and (min-height: 500px) {
+  .banana img{
+    display: none;
+  }
+
+  .scoop1 img{
+    display: none;
+  }
+}
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 500px) {
+
+
+  .banana img{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 300px;
+  }
+
+  .scoop1 img{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 410px;
+    top: 300px;
+  }
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) and (min-height: 500px) {
+
+}
+
+@media screen and (max-width: 1728px) and (max-height: 500px) {
+
+}
