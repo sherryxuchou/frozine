@@ -6,7 +6,9 @@ body {
   .introtext2 {
       display: block;
       margin-top: 250px;
-      width: 90vw;
+      width: 100vw;
+      margin-left: 50px;
+
     }
 
     .bananaman {
