@@ -24,7 +24,7 @@ p {
     font-size: 28px;
   font-weight: bold;
   line-height: 1.5;
-  color: #F7B55C;
+  color: #FFC300;
   z-index: 1;
 }
 
@@ -77,8 +77,27 @@ p {
 }
 
 
+.icecreamguy {
+  position: absolute;
+  top: 400;
+  left: 450px;
+  animation: pop 0.5s ease-in-out infinite alternate;
+  width: 100px;
+  z-index: -10;
+}
+
+@keyframes pop {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 #sprinklepic {
   width: 300px;
+  margin-top: 600px;
 }
 
 
