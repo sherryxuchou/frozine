@@ -1,6 +1,5 @@
 body{
-	background-image: url("https://i.imgur.com/iUVyBJK.png");
-	background-size: cover;
+	background-color: #fdedd6;
 }
 
 /* main menu
@@ -80,8 +79,6 @@ body{
 	top: 1150px;
 	margin-left: 30px;
 }
-
-
 
 .container-6{
 	position: absolute;
